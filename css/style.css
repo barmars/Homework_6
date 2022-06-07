@@ -1,0 +1,57 @@
+@import url(_vars.css);
+@import url(_color.css);
+
+body{
+    padding: 3em 15em 1.5em 15em;
+    font-size: var(--font-main);
+}
+
+
+.about{
+    padding-top: 50px;
+    padding-right: 90px;
+    text-align: center;
+}
+
+#title{
+    display: flex;
+}
+
+nav ol li{
+    display: inline-flexbox
+}
+
+.wrapper > section:first-child{
+    background: rgb(222, 130, 31);
+    padding: 50px;
+}
+
+.wrapper > section:nth-child(3){
+    color: rgb(6, 6, 63);
+}
+
+.about >p:nth-child(1){
+    font-size: 1.4rem;
+}
+
+.list > li{
+    font-size: x-large;
+    color: rgb(66, 26, 5);
+}
+
+.list > p ~ li a {
+    color: rgb(14, 102, 234);
+    font-size: 1.7rem;
+}
+
+h3{
+    font-size: 2rem;
+}
+
+.sidebar{
+    margin: 50px;
+}
+
+.maincontent {
+    margin: 20px 100px 50px 50px;
+}

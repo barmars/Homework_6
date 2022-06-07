@@ -1,0 +1,11 @@
+body {
+    background: var(--background-main);
+}
+
+h1,
+h2,
+h3,
+h4
+{
+    color: #3a053a;
+}
